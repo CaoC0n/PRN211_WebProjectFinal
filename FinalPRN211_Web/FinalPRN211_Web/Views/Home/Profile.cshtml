@@ -1,0 +1,83 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using DataAccess.Models
+@{
+    User userEdit = ViewBag.User;
+    string Mess = (string)ViewBag.Mess;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Profile</title>
+    <!--====== FontAwesome css ======-->
+    <script src="https://kit.fontawesome.com/9a14d14ca3.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <h3 class="text-danger"></h3>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="/Home"><i class="fas fa-home"></i></a>
+                        <label>Profile</label>
+                    </div>
+                    <div class="card-body">
+                        <p style="color: red">@Mess</p>
+                        <form asp-controller="Home" asp-action="Profile" method="post">
+                            @if (userEdit != null)
+                            {
+                                <input type="hidden" name="userId" value="@userEdit.UserId" />
+                            }
+                            <div class="form-group">
+                                <div style="margin-bottom: 20px">
+                                    <label for="name">Firstname:</label>
+                                    <input type="text" class="form-control" name="firstname" required value="@userEdit.FirstName">
+                                </div>
+                                <div>
+                                    <label for="name">Lastname:</label>
+                                    <input type="text" class="form-control" name="lastname" required value="@userEdit.LastName">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" id="email" name="email" value="@userEdit.Email" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender:</label>
+                                <div style="display: flex; margin-left: 25px">
+                                    <div style="margin-right: 50px">
+                                        <input type="radio" class="form-check-input" name="gender" value="0" @if (userEdit.Gender == 0)
+                                        {
+                                            <text>checked</text>
+                                        }/>
+                                        <label class="form-check-label" for="male">Male</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" class="form-check-input" name="gender" value="1" @if (userEdit.Gender == 1)
+                                        {
+                                            <text>checked</text>
+                                        }/>
+                                        <label class="form-check-label" for="female">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 70px">
+                                <label for="phone">Phone Number:</label>
+                                <input type="text" class="form-control" id="phone" name="phone" maxlength="10" minlength="10" pattern="[0][1-9]{9}" title="Please enter a 10-digit phone number begin 0" value="@userEdit.PhoneNumber">
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center">
+                                <a href="/Home/Changepass">Change password</a>
+                                <button type="submit" class="btn btn-primary">Save change</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

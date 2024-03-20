@@ -1,0 +1,85 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalPRN211_Web.Models
+@{
+    string Mess = (string)ViewBag.Mess;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang Đăng Ký</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Register
+                    </div>
+                    <div class="card-body">
+                        <p style="color: red">@Mess</p>
+                        <form asp-controller="Authentication" asp-action="SignUp" method="post">
+                            <div class="form_group" style="display:flex; margin-bottom: 20px; justify-content:space-between">
+                                <div>
+                                    <label for="name">Firstname:</label>
+                                    <input type="text" class="form-control" name="firstname" required value="@ViewBag.Firstname">
+
+                                </div>
+                                <div>
+                                    <label for="name">Lastname:</label>
+                                    <input type="text" class="form-control" name="lastname" required value="@ViewBag.Lastname">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" name="email" value="@ViewBag.Email" required>
+                                <p style="color: red">@ViewBag.MessEmail</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Username:</label>
+                                <input type="text" class="form-control" name="username" value="@ViewBag.Username" required>
+                                <p style="color: red">@ViewBag.MessUsername</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" class="form-control" name="password" required oninput="validatePassword()">
+                            </div>
+                            <div class="form-group">
+                                <label for="re_password">Confirm password:</label>
+                                <input type="password" id="re-password" class="form-control" name="re_password" required oninput="validatePassword()">
+                            </div>
+                            <div style="display: flex; justify-content:space-between; align-items: center">
+                                <a href="/Home">Back to Home</a>
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var password = document.getElementById("password");
+            var confirmPassword = document.getElementById("re-password");
+
+            function validatePassword() {
+                if (password.value !== confirmPassword.value) {
+                    confirmPassword.setCustomValidity("Passwords do not match");
+                } else {
+                    confirmPassword.setCustomValidity('');
+                }
+            }
+
+            password.addEventListener('change', validatePassword);
+            confirmPassword.addEventListener('keyup', validatePassword);
+        });
+    </script>
+</body>
+</html>

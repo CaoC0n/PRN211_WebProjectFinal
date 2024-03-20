@@ -1,0 +1,51 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalPRN211_Web.Models
+
+@{
+    string Mess = (string)ViewBag.Mess;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang Đăng Nhập</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Login
+                    </div>
+                    <div class="card-body">
+                        <p style="color: red">@Mess</p>
+                        <form asp-controller="Authentication" asp-action="SignIn" method="post">
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <p class="text-danger"></p>
+                            <div style="display: flex; justify-content:space-between; align-items: center">
+                                <a href="/Home">Back to Home</a>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                        <div style="text-align: center">
+                            Don't have an account? <a href="/Authentication/SignUp">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

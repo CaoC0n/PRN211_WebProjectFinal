@@ -1,0 +1,1093 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinalPRN211_Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalPRN211_Web.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\css\\default.css",
+      "PackagePath": "staticwebassets\\assets\\css\\default.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.svg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.ttf"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.woff"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon\\flaticon_qampin1a0f.woff2"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-light-300d41d.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\about-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\about-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-10.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-5.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-7.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-8.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\about\\t-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\t-9.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\AboutUs.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\AboutUs.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\ad-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\ad-bg-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\choose-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\choose-bg-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\choose-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\choose-bg-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\contact-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\contact-bg-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\cta-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\cta-bg-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\cta-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\cta-bg-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\features-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\features-bg-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\fun-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\fun-bg-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\page-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\page-bg-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\testimonial-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\testimonial-bg-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\video-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\video-bg-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\bg\\we-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\we-bg-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\author-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\author-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\author-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\author-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\author-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\author-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\author-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\author-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\banner-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-single-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-single-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-single-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-single-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-single-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-single-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-standard-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-standard-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-standard-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-standard-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-standard-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-standard-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\blog-standard-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-standard-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\comment-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\comment-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\hover-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\hover-bg.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\next-post.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\next-post.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\post-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\post-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\post-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\post-thumb-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\blog\\prev-post.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\prev-post.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\contact\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact\\img-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\contact\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact\\img-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\chuatranquoc.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\chuatranquoc.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\f-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\f-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\f-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\f-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\f-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\f-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\f-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\f-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\features-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\features-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\features-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\gl-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\gl-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\gl-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\gl-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\hotay.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\hotay.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\service-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\service-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\features\\service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\features\\service-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\banhcuon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\banhcuon.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\banhkhuc.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\banhkhuc.jpeg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\comsuon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\comsuon.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\gatan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\gatan.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\ocluoc.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\ocluoc.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\food\\thitxien.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\food\\thitxien.jpeg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\foodbanner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\foodbanner.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-5.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-7.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-8.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\g-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\g-9.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-5.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-7.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\gallery\\gl-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\gl-8.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\hero-slider-one.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero-slider-one.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\hero-slider-three.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero-slider-three.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\hero-slider-two.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero-slider-two.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\hero-two_slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero-two_slider-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\hero-two_slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\hero-two_slider-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\hero\\pattern-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\hero\\pattern-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\ho-hoan-kiem-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ho-hoan-kiem-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\line.png",
+      "PackagePath": "staticwebassets\\assets\\images\\line.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\line2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\line2.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\logo\\logo-black.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-black.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\logo\\logo-travel.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-travel.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-white.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\notfound.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\notfound.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\partners\\partner-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-1.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\partners\\partner-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-2.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\partners\\partner-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-3.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\partners\\partner-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-4.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\partners\\partner-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\partner-5.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\quote.png",
+      "PackagePath": "staticwebassets\\assets\\images\\quote.png"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\ad-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\ad-banner.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\place.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\place.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\s-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\s-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\s-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\s-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\s-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\s-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-10.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-11.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-12.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-13.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-14.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-15.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-16.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-17.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-18.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-19.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-5.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-6.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-7.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-8.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\service-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\service-9.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\single-service-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\single-service-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\single-service-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\single-service-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\service\\weather.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service\\weather.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\testimonial\\author-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\author-thumb-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\testimonial\\author-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\author-thumb-2.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\testimonial\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\testimonial-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\testimonial\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial\\thumb-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\images\\video\\video-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video\\video-1.jpg"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\animate.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\calendar\\calendar.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\calendar\\calendar.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\calendar\\calendar.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\calendar\\calendar.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\imagesloaded.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\imagesloaded.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\images\\ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\images\\ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\jquery.waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery.waypoints.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\magnific-popup\\dist\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\magnific-popup\\dist\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\magnific-popup\\dist\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\magnific-popup\\dist\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\nice-select\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\nice-select\\css\\nice-select.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\popper\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\popper\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\assets\\vendor\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\wow.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Code_C#\\New folder\\FinalPRN211_Web\\FinalPRN211_Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FinalPRN211_Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FinalPRN211_Web.props",
+      "PackagePath": "build\\FinalPRN211_Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalPRN211_Web.props",
+      "PackagePath": "buildMultiTargeting\\FinalPRN211_Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FinalPRN211_Web.props",
+      "PackagePath": "buildTransitive\\FinalPRN211_Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

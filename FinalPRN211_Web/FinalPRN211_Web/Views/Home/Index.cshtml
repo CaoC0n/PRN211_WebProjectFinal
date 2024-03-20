@@ -1,0 +1,606 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json
+@using DataAccess.Models
+@{
+    TravelReviewContext context = new TravelReviewContext();
+    User username = null;
+    if (Context.Session.GetString("user") != null)
+    {
+        username = new DataAccess.Models.User();
+        var userObjectJson = Context.Session.GetString("user");
+        username = JsonConvert.DeserializeObject<User>(userObjectJson);
+    }
+
+    List<Address> a = ViewBag.Address;
+    List<Food> f = ViewBag.Food;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--====== Title ======-->
+    <title>HaNoi Travel</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/png">
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet" href="/assets/fonts/flaticon/flaticon.css">
+    <!--====== FontAwesome css ======-->
+    <link rel="stylesheet" href="/assets/fonts/fontawesome/css/all.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--====== magnific-popup css ======-->
+    <link rel="stylesheet" href="/assets/vendor/magnific-popup/dist/magnific-popup.css">
+    <!--====== Slick-popup css ======-->
+    <link rel="stylesheet" href="/assets/vendor/slick/slick.css">
+    <!--====== Jquery UI css ======-->
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="/assets/vendor/nice-select/css/nice-select.css">
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="/assets/vendor/animate.css">
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!--====== Start Preloader ======-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="pre-shadow"></div>
+            <div class="pre-box"></div>
+        </div>
+    </div><!--====== End Preloader ======-->
+    <!--====== Start Header ======-->
+    <header class="header-area">
+        <!--=== Header Navigation ===-->
+        <div class="header-navigation default-navigation">
+            <div class="nav-overlay"></div>
+            <div class="container-fluid">
+                <!--=== Primary Menu ===-->
+                <div class="primary-menu">
+                    <!--=== Site Branding ===-->
+                    <div class="site-branding">
+                        <a href="/Home" class="brand-logo">
+                            <img src="assets/images/logo/logo-travel.png"
+                                 alt="Site Logo">
+                        </a>
+                    </div>
+                    <!--=== Nav Inner Menu ===-->
+                    <div class="nav-menu">
+                        <!--=== Main Menu ===-->
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="menu-item has-children"><a href="/Home">Home</a></li>
+                                <li class="menu-item"><a href="/Home/Travel">Hot travel</a></li>
+                                <li class="menu-item"><a href="/Home/FoodReview">Food Review</a></li>
+                                <li class="menu-item"><a href="/Home/AboutUs">About Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--=== Nav right Item ===-->
+                    <div class="nav-right-item d-flex align-items-center">
+                        @if (username == null)
+                        {
+                            <div class="menu-button d-xl-block d-none">
+                                <a href="/Authentication/SignUp" class="main-btn btn-green">
+                                    Register<i class="far fa-angle-double-right"></i>
+                                </a>
+                            </div>
+                            <div class="lang-dropdown">
+                                <a href="/Authentication/SignIn">Login</a>
+                            </div>
+                        } 
+                        else
+                        {
+                            <div class="menu-button d-xl-block d-none">
+                                <a href="/Home/Profile" class="main-btn btn-green">
+                                    Welcome, @username.LastName
+                                </a>
+                            </div>
+                            <div class="lang-dropdown">
+                                <a href="/Authentication/Logout">Logout</a>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====== Start Banner Section ======-->
+    <section class="banner-section">
+        <div class="hero-wrapper-one p-r z-1">
+            <div class="hero-dots"></div>
+            <div class="hero-slider-one">
+                <!--====== Single Slider ======-->
+                <div class="single-slider p-r z-1" data-title="Travel">
+                    <div class="image-layer bg_cover"
+                         style="background-image: url(assets/images/hero/hero-slider-two.jpg);"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="hero-content text-white">
+                                    <span class="sub-title" data-animation="fadeInDown" data-delay=".4s">
+                                        <span class="number">01</span>Travel
+                                    </span>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Traveling</h1>
+                                    <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                        <a href="/Home/Travel" class="main-btn btn-yellow">
+                                            Discover more<i class="far fa-angle-double-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== Single Slider ======-->
+                <div class="single-slider p-r z-1" data-title="Food">
+                    <div class="image-layer bg_cover"
+                         style="background-image: url(assets/images/hero/hero-slider-one.jpg);"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="hero-content text-white">
+                                    <span class="sub-title" data-animation="fadeInDown" data-delay=".4s">
+                                        <span class="number">02</span>Food
+                                    </span>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Food Review</h1>
+                                    <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                        <a href="/Home/FoodReview" class="main-btn btn-yellow">
+                                            Discover more<i class="far fa-angle-double-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Banner Section ======-->
+    <!--====== End Header ======-->
+    <!--====== Start Features Section ======-->
+    <section class="features-section pt-95 pb-50">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-10">
+                    <!--====== Section Title ======-->
+                    <div class="section-title text-center mb-50 wow fadeInDown">
+                        <span class="sub-title"><span class="number">01</span> Enjoy Adventure</span>
+                        <h2>Have A Fun With Our Amazing <span class="thin">Tour Travel</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <!--====== Features Thumb Item ======-->
+                    <div class="features-thumb-item mb-40 wow fadeInUp">
+                        <div class="thumb">
+                            <img src="assets/images/features/f-1.jpg" height="250px" alt="Features image">
+                        </div>
+                        <div class="text mt-25">
+                            <h4 class="title"><a href="/Home/TravelDetail?id=1">Ho Chi Minh Mausoleum</a></h4>
+                            <p style="font-size: 14px;">
+                                The President Ho Chi Minh Mausoleum is a mausoleum which serves
+                                as the resting place of Vietnamese revolutionary leader and President Ho Chi Minh in
+                                Hanoi, Viet Nam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <!--====== Features Thumb Item ======-->
+                    <div class="features-thumb-item mb-40 wow fadeInUp">
+                        <div class="thumb">
+                            <img src="assets/images/features/f-2.jpg" height="250px" alt="Features image">
+                        </div>
+                        <div class="text mt-25">
+                            <h4 class="title"><a href="/Home/TravelDetail?id=2">Ancient City Of Hanoi</a></h4>
+                            <p style="font-size: 14px;">
+                                Ancient City Of Hanoi is the name commonly given to the
+                                historical civic urban core of Hanoi, located outside
+                                the Imperial Citadel of Thang Long.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <!--====== Features Thumb Item ======-->
+                    <div class="features-thumb-item mb-40 wow fadeInUp">
+                        <div class="thumb">
+                            <img src="assets/images/features/f-3.jpg" height="250px" alt="Features image">
+                        </div>
+                        <div class="text mt-25">
+                            <h4 class="title"><a href="/Home/TravelDetail?id=3">Quoc Tu Giam Temple</a></h4>
+                            <p style="font-size: 14px;">
+                                Quoc Tu Giam Temple is one of several temples in Vietnam which
+                                is dedicated to Confucius, sages, and scholars.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <!--====== Features Thumb Item ======-->
+                    <div class="features-thumb-item mb-40 wow fadeInUp">
+                        <div class="thumb">
+                            <img src="assets/images/features/f-4.jpg" height="250px" alt="Features image">
+                        </div>
+                        <div class="text mt-25">
+                            <h4 class="title"><a href="/Home/TravelDetail?id=4">Imperial Citadel of Thang Long</a></h4>
+                            <p style="font-size: 14px;">
+                                Imperial Citadel of Thang Long is a complex of historic
+                                buildings associated with the history of Vietnam located in the
+                                centre of Hanoi, Vietnam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Features Section ======-->
+    <!--====== Start About Section ======-->
+    <section class="about-section pt-100 pb-50">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image-box text-lg-end pr-lg-30 mb-50 wow fadeInLeft">
+                        <img src="assets/images/about/about-1.jpg" alt="About Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content-box pl-lg-50 mb-50 wow fadeInRight">
+                        <div class="section-title mb-20">
+                            <span class="sub-title"><span class="number">02</span>About Us</span>
+                            <h2>
+                                We’re Most Trusted
+                                Travel <span class="thin">
+                                    Partner Aroud
+                                    The World
+                                </span>
+                            </h2>
+                        </div>
+                        <p class="mb-30">
+                            Welcome to HaNoi Travel, your premier destination for discovering the beauty
+                            and culture of Vietnam's capital city. As your trusted travel partner, we are dedicated to
+                            providing unparalleled experiences that immerse you in the vibrant tapestry of Hanoi.
+                        </p>
+                        <ul class="check-style-one mb-35">
+                            <li><i class="flaticon-draw-check-mark"></i>Travel</li>
+                            <li><i class="flaticon-draw-check-mark"></i>Food</li>
+                            <li><i class="flaticon-draw-check-mark"></i>Attractive Location</li>
+                        </ul>
+                        <a href="/Home/AboutUs" class="main-btn btn-yellow">
+                            learn more us <i class="far fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End About Section ======-->
+    <!--====== Start Video Section ======-->
+    <section class="video-bg-section pt-140 pb-210 p-r z-1 bg_cover"
+             style="background-image: url(assets/images/video/video-1.jpg);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="video-content-box text-white mb-40 wow fadeInLeft">
+                        <h2 class="mb-30">Ready to Get Started your Travel</h2>
+                        <a href="https://www.youtube.com/watch?v=KdEEVocbv9g" class="main-btn btn-green">
+                            Watch video <i class="far fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="play-box text-lg-end mb-40 wow fadeInRight">
+                        <a href="https://www.youtube.com/watch?v=KdEEVocbv9g" class="video-popup">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Video Section ======-->
+    <!--====== Start Fun Section ======-->
+    <section class="fun-fact mt-minus-100 plr-5p p-r z-2">
+        <div class="container-fluid">
+            <div class="fun-wrapper mt-minus-100 p-r z-2 bg_cover pt-60 pb-20 light-gray-bg"
+                 style="background-image: url(assets/images/bg/fun-bg-1.png);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
+                                <div class="counter-inner-item">
+                                    <div class="icon">
+                                        <i class="flaticon-hiking"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h2><span class="count">365</span>K+</h2>
+                                        <p>Happy Traveler</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
+                                <div class="counter-inner-item">
+                                    <div class="icon">
+                                        <i class="fas fa-user-alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h2><span class="count">135</span>+</h2>
+                                        <p>Number of reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
+                                <div class="counter-inner-item">
+                                    <div class="icon">
+                                        <i class="flaticon-branch"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h2><span class="count">458</span>+</h2>
+                                        <p>Tour Travel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="counter-item mb-30 d-flex justify-content-center wow fadeInUp">
+                                <div class="counter-inner-item">
+                                    <div class="icon">
+                                        <i class="fas fa-globe-americas"></i>
+                                    </div>
+                                    <div class="text">
+                                        <h2><span class="count">685</span>+</h2>
+                                        <p>View Website</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Fun Section ======-->
+    <!--====== Start Service Section ======-->
+    <section class="services-section pt-90 pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-10">
+                    <div class="section-title text-center mb-50 wow fadeInDown">
+                        <span class="sub-title"><span class="number">03</span>Popular</span>
+                        <h2>Hanoi Neighborhoods <span class="thin">At Night</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="single-service-item mb-30 wow fadeInUp">
+                        <div class="img-holder">
+                            <img src="assets/images/service/service-1.jpg" alt="Service image">
+                            <div class="shape"></div>
+                        </div>
+                        <div class="text">
+                            <h3 class="title"><a href="/Home/TravelDetail?id=5">Ta Hien - Bia Hoi Intersection</a></h3>
+                            <P>
+                                Ta Hien Street only comes alive when the night falls.
+                                Besides beer, you can try some prominent street foods and other drinks.
+                            </P>
+                            <div class="meta">
+                                <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                <span class="icon"><i class="fas fa-server"></i></span>
+                                <span class="icon"><i class="fas fa-camera-retro"></i></span>
+                                <a href="/Home/TravelDetail?id=5" class="icon-btn"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="single-service-item mb-30 wow fadeInUp">
+                        <div class="img-holder">
+                            <img src="~/assets/images/service/service-2.jpg" alt="Service image">
+                            <div class="shape"></div>
+                        </div>
+                        <div class="text">
+                            <h3 class="title"><a href="/Home/TravelDetail?id=6">Hanoi Pedestrian Street</a></h3>
+                            <P>
+                                Hanoi's pedestrian street,
+                                is an attractive destination not only for tourists but also for local residents.
+                            </P>
+                            <div class="meta">
+                                <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                <span class="icon"><i class="fas fa-server"></i></span>
+                                <span class="icon"><i class="fas fa-camera-retro"></i></span>
+                                <a href="/Home/TravelDetail?id=6" class="icon-btn"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="single-service-item mb-30 wow fadeInUp">
+                        <div class="img-holder">
+                            <img src="assets/images/service/service-3.jpg" alt="Service image">
+                            <div class="shape"></div>
+                        </div>
+                        <div class="text">
+                            <h3 class="title"><a href="/Home/TravelDetail?id=7">Dong Xuan Night Market</a></h3>
+                            <P>
+                                The night market opens from 7:30 PM on Fridays, Saturdays,
+                                and Sundays weekly until midnight.
+                            </P>
+                            <div class="meta">
+                                <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                <span class="icon"><i class="fas fa-server"></i></span>
+                                <span class="icon"><i class="fas fa-camera-retro"></i></span>
+                                <a href="/Home/TravelDetail?id=7" class="icon-btn"><i class="far fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-button text-center mt-30 wow fadeInDown">
+                        <a href="/Home/Travel" class="main-btn btn-green">
+                            Discover more<i class="far fa-angle-double-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Service Section ======-->
+    <!--====== Start Gallery Section ======-->
+    <section class="gallery-section pt-90" style="margin-bottom: -250px">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-10">
+                    <div class="section-title text-center mb-50 wow fadeInDown">
+                        <span class="sub-title"><span class="number">04</span>Recent Gallery</span>
+                        <h2>Diversity of <span class="thin">Hanoi Cuisine Photo</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-slider-one wow fadeInUp">
+                @foreach (Food food in f)
+                {
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img src="assets/images/food/@food.Image" height="400px" alt="Gallery Image">
+                            <div class="hover-overlay">
+                                <div class="hover-content text-center text-white">
+                                    <a href="/Home/FoodDetail?id=@food.FoodId" class="icon-btn"><i class="far fa-arrow-right"></i></a>
+                                    <h4 class="title"><a href="/Home/FoodDetail?id=@food.FoodId">Try It</a></h4>
+                                    <a href="/Home/FoodDetail?id=@food.FoodId" class="cat-link">Visit The Capital</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section><!--====== End Gallery Section ======-->
+    <!--====== Footer ======-->
+    <footer class="border-top footer text-muted footer-default dark-black-bg text-white">
+        <div class="container-fluid">
+            <div class="footer-widget-area pt-80 pb-30 ">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget about-company-widget mb-40 wow fadeInDown">
+                            <a href="/Home" class="footer-logo">
+                                <img style="width: 220px;
+                                border-radius: 110px" src="/assets/images/logo/logo-travel.png" alt="Brand Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-55 mb-40 wow fadeInUp">
+                            <h4 class="widget-title">Links</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li><a href="/Home">Home</a></li>
+                                    <li><a href="/Home/HotTravel">Hot Travel</a></li>
+                                    <li><a href="/Home/AboutUs">About us</a></li>
+                                    <li><a href="/Home/FoodReview">Food Review</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-20 mb-40 wow fadeInDown">
+                            <h4 class="widget-title">Services</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li>Tour booking</li>
+                                    <li>Tour guiding service</li>
+                                    <li>Travel advice</li>
+                                    <li>Adventure tour</li>
+                                    <li>Hotel booking service</li>
+                                    <li>Shopping services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-70 mb-40 wow fadeInUp">
+                            <h4 class="widget-title">Support</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li>Meet Our Team</li>
+                                    <li>Item Support</li>
+                                    <li>Contact Foram</li>
+                                    <li>Report Abuse</li>
+                                    <li>Live</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget contact-info-widget pl-lg-100 mb-40 wow fadeInDown">
+                            <div class="contact-info-box mb-35">
+                                <h4 class="title">Location</h4>
+                                <p><i class="far fa-map-marker-alt"></i><span>FPT University</span></p>
+                            </div>
+                            <div class="contact-info-box mb-35">
+                                <h4 class="title">Contact</h4>
+                                <p>
+                                    <i class="far fa-envelope"></i><a href="mailto:tungtqhe176091@fpt.edu.vn">tungtqhe176091@fpt.edu.vn</a>
+                                </p>
+                                <p><i class="far fa-phone"></i><a href="tel:0387479017">0387479017</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=== Copyright Area ===-->
+            <div class="copyright-area">
+                <div class="row">
+                    <div style="text-align: center">
+                        <div class="copyright-text">
+                            <P>&copy; 2024 <span style="color:#F7921E;">HaNoi Travel</span>, All Rights Reserved</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== Back To Top  ======-->
+    <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+    <script src="/assets/vendor/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="/assets/vendor/popper/popper.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="/assets/vendor/slick/slick.min.js"></script>
+    <!--====== Magnific js ======-->
+    <script src="/assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="/assets/vendor/isotope.min.js"></script>
+    <!--====== Imagesloaded js ======-->
+    <script src="/assets/vendor/imagesloaded.min.js"></script>
+    <!--====== Counterup js ======-->
+    <script src="/assets/vendor/jquery.counterup.min.js"></script>
+    <!--====== Waypoints js ======-->
+    <script src="/assets/vendor/jquery.waypoints.js"></script>
+    <!--====== Nice-select js ======-->
+    <script src="/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!--====== jquery UI js ======-->
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <!--====== WOW js ======-->
+    <script src="/assets/vendor/wow.min.js"></script>
+    <!--====== Main js ======-->
+    <script src="/assets/js/theme.js"></script>
+
+</body>
+
+
+</html>
+

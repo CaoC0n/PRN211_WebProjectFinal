@@ -1,0 +1,134 @@
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.deps.json
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.exe
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.exe
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
+E:\Code_C#\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.deps.json
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.exe
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.exe
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\BusinessLogic.genruntimeconfig.cache
+E:\Code_C#\New folder\FinalPRN211_Web\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll

@@ -1,0 +1,75 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using FinalPRN211_Web.Models
+@using DataAccess.Models
+
+@{
+    string Mess = (string)ViewBag.Mess;
+    User u = ViewBag.User;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change password</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Change password
+                    </div>
+                    <div class="card-body">
+                        <p style="color: red">@Mess</p>
+                        <form asp-controller="Home" asp-action="Changepass" method="post">
+                            @if (u != null)
+                            {
+                                <input type="hidden" name="userId" value="@u.UserId" />
+                            }
+                            <div class="form-group">
+                                <label for="username">Current password:</label>
+                                <input type="password" class="form-control" name="oldpassword" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">New Password:</label>
+                                <input type="password" id="password" class="form-control" name="newpassword" required oninput="validatePassword()">
+                            </div>
+                            <div class="form-group">
+                                <label for="re_password">Confirm password:</label>
+                                <input type="password" id="re-password" class="form-control" name="re_password" required oninput="validatePassword()">
+                            </div>
+                            <p class="text-danger"></p>
+                            <div style="display: flex; justify-content:space-between; align-items: center">
+                                <a href="/Home/Profile">Back to Profile</a>
+                                <button type="submit" class="btn btn-primary">Save change</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var password = document.getElementById("password");
+            var confirmPassword = document.getElementById("re-password");
+
+            function validatePassword() {
+                if (password.value !== confirmPassword.value) {
+                    confirmPassword.setCustomValidity("Passwords do not match");
+                } else {
+                    confirmPassword.setCustomValidity('');
+                }
+            }
+
+            password.addEventListener('change', validatePassword);
+            confirmPassword.addEventListener('keyup', validatePassword);
+        });
+    </script>
+</body>
+</html>

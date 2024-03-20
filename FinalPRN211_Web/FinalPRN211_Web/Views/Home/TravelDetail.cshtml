@@ -1,0 +1,395 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json
+@using DataAccess.Models
+@{
+    Address a = ViewBag.Address;
+
+    string dateFormat(string date)
+    {
+        string[] d = date.Split(" ");
+        return d[0];
+    }
+    User username = null;
+    if (Context.Session.GetString("user") != null)
+    {
+        username = new DataAccess.Models.User();
+        var userObjectJson = Context.Session.GetString("user");
+        username = JsonConvert.DeserializeObject<User>(userObjectJson);
+    }
+
+    List<Review> review = ViewBag.Review;
+}
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--====== Title ======-->
+    <title>Tours and Travel</title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/png">
+    <!--====== Flaticon css ======-->
+    <link rel="stylesheet" href="/assets/fonts/flaticon/flaticon.css">
+    <!--====== FontAwesome css ======-->
+    <link rel="stylesheet" href="/assets/fonts/fontawesome/css/all.min.css">
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--====== magnific-popup css ======-->
+    <link rel="stylesheet" href="/assets/vendor/magnific-popup/dist/magnific-popup.css">
+    <!--====== Slick-popup css ======-->
+    <link rel="stylesheet" href="/assets/vendor/slick/slick.css">
+    <!--====== Jquery UI css ======-->
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+    <!--====== Nice Select css ======-->
+    <link rel="stylesheet" href="/assets/vendor/nice-select/css/nice-select.css">
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="/assets/vendor/animate.css">
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="/assets/css/default.css">
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!--====== Start Preloader ======-->
+    <div class="preloader">
+        <div class="loader">
+            <div class="pre-shadow"></div>
+            <div class="pre-box"></div>
+        </div>
+    </div><!--====== End Preloader ======-->
+    <!--====== Start Breadcrumb Section ======-->
+    <section class="page-banner light-red-bg pt-170 pb-170 bg_cover" style="background-image: url(/assets/images/bg/page-bg-1.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="page-banner-content text-center text-white">
+                        <h1 class="page-title">Hot Travel</h1>
+                        <ul class="breadcrumb-link text-white">
+                            <li><a href="/Home">Home</a></li>
+                            <li><a href="/Home/Travel">Travel</a></li>
+                            <li class="active">Travel Details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Breadcrumb Section ======-->
+    <!--====== Start Blog Details Section ======-->
+    <section class="blog-details-section pt-100 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7">
+                    <div class="blog-details-wrapper">
+                        <div class="blog-post mb-60 wow fadeInUp">
+                            @if (a != null)
+                            {
+                                <div class="post-meta">
+                                    <ul>
+                                        <li><span><i class="far fa-calendar-alt"></i> @dateFormat(@a.DatePost.ToString())</span></li>
+                                        <li><span><i class="far fa-comment"></i> Comments (@ViewBag.NumberOfComments)</span></li>
+                                    </ul>
+                                </div>
+                                <div class="main-post">
+                                    <div class="entry-content">
+                                        <h3 class="title">
+                                            @a.LocationName
+                                        </h3>
+                                        <div class="post-thumbnail" style="margin-bottom: 30px">
+                                            <img src="/assets/images/features/@a.Image" alt="Blog Image">
+                                        </div>
+                                        <p>
+                                            @a.Description
+                                        </p>
+                                        <p style="color:red"><i class="fas fa-map-marker-alt" style="font-size: 20px; margin-right: 10px"></i>@a.StreetAddress</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <!--===  Comments Area  ===-->
+                        <div class="comments-area mb-80 wow fadeInUp">
+                            <h5 class="comments-title mb-40">Popular Comments</h5>
+                            @if (review != null && review.Count > 0)
+                            {
+                                @foreach (Review r in review)
+                                {
+                                    <ul class="comments-list">
+                                        <li class="comment mb-40" style="margin:50px 0px">
+                                            <div class="comment-avatar">
+                                                <img src="/assets/images/blog/comment-1.jpg" alt="comment author">
+                                            </div>
+                                            <div class="comment-wrap">
+                                                <div class="comment-author-content">
+                                                    <span class="author-name">@r.User.FirstName @r.User.LastName<span class="date">@dateFormat(@r.Date.ToString())</span></span>
+                                                    <p>
+                                                        @r.Description
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                }
+                            }
+                        </div>
+                        <!--===  Comments Form  ===-->
+                        @if (username != null)
+                        {
+                            <div class="comments-respond mb-35 wow fadeInUp" id="comment-respond">
+                                <h5 class="comments-heading">Leave a Comments</h5>
+                                <p>Send us your valuable feedback about our services</p>
+                                <form asp-controller="Home" asp-action="TravelDetail" method="post" class="comment-form">
+                                    @if (username != null && username.UserId != null && a != null && a.LocationId != null)
+                                    {
+                                        <input type="hidden" name="userId" value="@username.UserId" />
+                                        <input type="hidden" name="locationId" value="@a.LocationId" />
+                                    }
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form_group">
+                                                <textarea name="description" class="form_control" placeholder="Comments" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form_group">
+                                                <button class="main-btn btn-green">Send comments<i class="far fa-angle-double-right"></i></button>
+                                                <label style="color: green">@ViewBag.Mess</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="comments-respond mb-35 wow fadeInUp" id="comment-respond">
+                                <h5 class="comments-heading">Leave a Comments</h5>
+                                <p>Send us your valuable feedback about our services</p>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-lg-12" style="margin-bottom: 30px">
+                                            <div class="form_group">
+                                                <textarea name="message" class="form_control" placeholder="Comments" data-bs-target="#add-comment" data-bs-toggle="modal"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form_group">
+                                                <button class="main-btn btn-green" data-bs-target="#add-comment" data-bs-toggle="modal">Send comments<i class="far fa-angle-double-right"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="add-comment" aria-hidden="true"
+                                 aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Leave A Comment</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body choose-group-item">
+                                            <div>
+                                                Please <a href="/Authentication/SignIn" style="color: blue">LOGIN</a> to comment
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="sidebar-widget-area pl-lg-40">
+                        <!--=== Search Widget ===-->
+                        <div class="sidebar-widget search-widget mb-30 wow fadeInUp">
+                            <h5 class="widget-title">Search</h5>
+                            <form asp-controller="Home" asp-action="Travel" method="get">
+                                <div class="form_group">
+                                    <label>
+                                        <button type="submit" style="background-color: white;"><i class="far fa-search"></i></button>
+                                    </label>
+                                    <input type="text" class="form_control" placeholder="Search" name="search" required>
+                                </div>
+                            </form>
+                        </div>
+                        <!--=== Recent Post Widget ===-->
+                        <div class="sidebar-widget recent-post-widget mb-40 wow fadeInUp">
+                            <h5 class="widget-title">Recent News</h5>
+                            <ul class="recent-post-list">
+                                <li class="post-thumbnail-content">
+                                    <img src="/assets/images/features/hotay.jpg" alt="post thumb">
+                                    <div class="post-title-date">
+                                        <h5>
+                                            <a href="/Home/TravelDetail?id=8">
+                                                West Lake
+                                            </a>
+                                        </h5>
+                                        <span>Attractive tourist destination with many activities...</span>
+                                    </div>
+                                </li>
+                                <li class="post-thumbnail-content">
+                                    <img src="/assets/images/features/chuatranquoc.jpg" alt="post thumb">
+                                    <div class="post-title-date">
+                                        <h5>
+                                            <a href="/Home/TravelDetail?id=9">
+                                                Tran Quoc Pagoda
+                                            </a>
+                                        </h5>
+                                        <span>Tran Quoc Tu is always crowded with Buddhists and visitors...</span>
+                                    </div>
+                                </li>
+                                <li class="post-thumbnail-content">
+                                    <img src="/assets/images/features/gl-6.jpg" alt="post thumb">
+                                    <div class="post-title-date">
+                                        <h5>
+                                            <a href="/Home/TravelDetail?id=10">
+                                                One Pillar Pagoda
+                                            </a>
+                                        </h5>
+                                        <span>One of the special works that cannot be missed when talking about Hanoi is the One Pillar Pagoda...</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--=== Banner Widget ===-->
+                        <div class="sidebar-banner-widget wow fadeInUp mb-40">
+                            <div class="banner-widget-content">
+                                <div class="banner-img">
+                                    <img src="/assets/images/features/gl-1.jpg" alt="Post Banner">
+                                    <div class="hover-overlay">
+                                        <div class="hover-content">
+                                            <h4 class="title">
+                                                <a href="/Home/TravelDetail?id=11">
+                                                    Hanoi Opera House
+                                                </a>
+                                            </h4>
+                                            <span class="price"><span class="currency">$</span>200</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--====== End Blog Details Section ======-->
+    <!--====== Footer ======-->
+    <footer class="border-top footer text-muted footer-default dark-black-bg text-white">
+        <div class="container-fluid">
+            <div class="footer-widget-area pt-80 pb-30 ">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget about-company-widget mb-40 wow fadeInDown">
+                            <a href="/Home" class="footer-logo">
+                                <img style="width: 220px;
+                                border-radius: 110px" src="/assets/images/logo/logo-travel.png" alt="Brand Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-55 mb-40 wow fadeInUp">
+                            <h4 class="widget-title">Links</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li><a href="/Home">Home</a></li>
+                                    <li><a href="/Home/HotTravel">Hot Travel</a></li>
+                                    <li><a href="/Home/AboutUs">About us</a></li>
+                                    <li><a href="/Home/FoodReview">Food Review</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-20 mb-40 wow fadeInDown">
+                            <h4 class="widget-title">Services</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li>Tour booking</li>
+                                    <li>Tour guiding service</li>
+                                    <li>Travel advice</li>
+                                    <li>Adventure tour</li>
+                                    <li>Hotel booking service</li>
+                                    <li>Shopping services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6">
+                        <div class="footer-widget footer-nav-widget pl-lg-70 mb-40 wow fadeInUp">
+                            <h4 class="widget-title">Support</h4>
+                            <div class="footer-nav-content">
+                                <ul class="footer-nav">
+                                    <li>Meet Our Team</li>
+                                    <li>Item Support</li>
+                                    <li>Contact Foram</li>
+                                    <li>Report Abuse</li>
+                                    <li>Live</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget contact-info-widget pl-lg-100 mb-40 wow fadeInDown">
+                            <div class="contact-info-box mb-35">
+                                <h4 class="title">Location</h4>
+                                <p><i class="far fa-map-marker-alt"></i><span>FPT University</span></p>
+                            </div>
+                            <div class="contact-info-box mb-35">
+                                <h4 class="title">Contact</h4>
+                                <p>
+                                    <i class="far fa-envelope"></i><a href="mailto:tungtqhe176091@fpt.edu.vn">tungtqhe176091@fpt.edu.vn</a>
+                                </p>
+                                <p><i class="far fa-phone"></i><a href="tel:0387479017">0387479017</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=== Copyright Area ===-->
+            <div class="copyright-area">
+                <div class="row">
+                    <div style="text-align: center">
+                        <div class="copyright-text">
+                            <P>&copy; 2024 <span style="color:#F7921E;">HaNoi Travel</span>, All Rights Reserved</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== Back To Top  ======-->
+    <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+    <!--====== Jquery js ======-->
+    <script src="/assets/vendor/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="/assets/vendor/popper/popper.min.js"></script>
+    <!--====== Bootstrap js ======-->
+    <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--====== Slick js ======-->
+    <script src="/assets/vendor/slick/slick.min.js"></script>
+    <!--====== Magnific js ======-->
+    <script src="/assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!--====== Isotope js ======-->
+    <script src="/assets/vendor/isotope.min.js"></script>
+    <!--====== Imagesloaded js ======-->
+    <script src="/assets/vendor/imagesloaded.min.js"></script>
+    <!--====== Counterup js ======-->
+    <script src="/assets/vendor/jquery.counterup.min.js"></script>
+    <!--====== Waypoints js ======-->
+    <script src="/assets/vendor/jquery.waypoints.js"></script>
+    <!--====== Nice-select js ======-->
+    <script src="/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!--====== jquery UI js ======-->
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <!--====== WOW js ======-->
+    <script src="/assets/vendor/wow.min.js"></script>
+    <!--====== Main js ======-->
+    <script src="/assets/js/theme.js"></script>
+</body>
+
+</html>
